@@ -6,7 +6,7 @@ class PostsController < ApplicationController
     else
       @posts = Post.all
     end
-  end
+  end 
 
   def show
     if params[:author_id]
